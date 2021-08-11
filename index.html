@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css folder/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Project 2</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navh">
+            <div id="lname">
+                <h1> Student Name</h1>
+            </div>
+            <ul class="ul1">
+                <li class="li1">HOME</li>
+                <li class="li1">PORTFOLIO</li>
+                <li class="li1">CONTACT</li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="main">
+        <img id="layout" src="images/responsive-layout-profile.png" alt="profile">
+        <p id="laypara"> HI! I’m a front-end developer who loves responsive design and CSS. I recently finished
+            learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+
+    </div>
+    <br>
+
+    <p id="portfolio">PORTFOLIO</p>
+    <br>
+
+    <img id="port1" src="images/portfolio-1.png" alt="">
+    <b id="head1">Marketing Page</b>
+    <p id="para1">This project shows the front page of a marketing website meant for a specific business I’m
+        interested in.</p>
+
+
+    <img id="port2" src="images/portfolio-2.png" alt="">
+    <b id="head2">Search Page</b>
+    <p id="para2">This project searches through a specific database to find information that the user is typing to
+        look up</p>
+
+
+
+    <img id="port3" src="images/portfolio-3.png" alt="">
+    <b id="head3">Travel App</b>
+    <p id="para3"> This project compares travel times based on different transportation methods and tells you the
+        best one</p>
+
+    <img id="port4" src="images/portfolio-4.png" alt="">
+    <b id="head4">Map of Favorite Spots</b>
+    <p id="para4"> This project uses mapping apis to plot points for my favorite spots in the city for a
+        do-it-yourself walking tour</p>
+
+    <img id="port5" src="images/portfolio-5.png" alt="">
+    <b id="head5">Photo Gallery</b>
+    <p id="para5"> This project shows pictures from a recent trip to the viewer and allows them to easily navigate
+        throuh photos</p>
+
+
+    <img id="port6" src="images/portfolio-6.png" alt="">
+    <b id="head6">Calculator</b>
+    <p id="para6"> Someone can enter in the numberd they want, and press the big blue button and get the
+        result</p>
+
+    <br><br>
+
+    <b id="conts">CONTACT</b>
+    <p id="contact">If you're interested in chatting or want more information about what I've been woring on, I'd
+        love yo hear from you!</p>
+
+    <p class="contacts">Phone &nbsp; <a href="tel:+919524852545">+919524852545</a></p>
+    <p class="contacts">Email &nbsp; <a href="mailto:rajwinder456@gmail.com">rajwinder456@gmail.com</a></p>
+
+    <hr>
+    <footer>
+        <nav id="nav2">
+            <div id="lname2">
+                <b> Student Name</b>
+            </div>
+            <ul class="ul2">
+                <li class="li2">HOME</li>
+                <li class="li2">PORTFOLIO</li>
+                <li class="li2">CONTACT</li>
+                <li id="li3">BACK TO TOP</li>
+            </ul>
+
+        </nav>
+
+    </footer>
+    <div class="m">
+        <button class="b">×</button> <img id="m" src="images/responsive-layout-profile.png" alt="">
+    </div>
+    <div class="m1">
+        <button class="b1">×</button> <img id="m2" src="images/portfolio-1.png" alt="">
+    </div>
+    <div class="m2">
+        <button class="b2">×</button> <img id="m2" src="images/portfolio-2.png" alt="">
+    </div>
+    <div class="m3">
+        <button class="b3">×</button> <img id="m3" src="images/portfolio-3.png" alt="">
+    </div>
+    <div class="m4">
+        <button class="b4">×</button> <img id="m4" src="images/portfolio-4.png" alt="">
+    </div>
+    <div class="m5">
+        <button class="b5">×</button><img id="m5" src="images/portfolio-5.png" alt="">
+    </div>
+    <div class="m6">
+        <button class="b6">×</button> <img id="m6" src="images/portfolio-6.png" alt="">
+    </div>
+    <script>
+        const profile = document.querySelector(`#layout`);
+        const pic1 = document.querySelector(`#port1`);
+        const pic2 = document.querySelector(`#port2`);
+        const pic3 = document.querySelector(`#port3`);
+        const pic4 = document.querySelector(`#port4`);
+        const pic5 = document.querySelector(`#port5`);
+        const pic6 = document.querySelector(`#port6`);
+        const mod = document.querySelector(`.m`);
+        const mod1 = document.querySelector(`.m1`);
+        const mod2 = document.querySelector(`.m2`);
+        const mod3 = document.querySelector(`.m3`);
+        const mod4 = document.querySelector(`.m4`);
+        const mod5 = document.querySelector(`.m5`);
+        const mod6 = document.querySelector(`.m6`);
+        const modb = document.querySelector(`.b`);
+        const modb1 = document.querySelector(`.b1`);
+        const modb2 = document.querySelector(`.b2`);
+        const modb3 = document.querySelector(`.b3`);
+        const modb4 = document.querySelector(`.b4`);
+        const modb5 = document.querySelector(`.b5`);
+        const modb6 = document.querySelector(`.b6`);
+
+        profile.addEventListener("click", function () {
+
+            mod.classList.add(`move`);
+
+        })
+
+        pic1.addEventListener("click", function () {
+
+            mod1.classList.add(`move`);
+
+        })
+        pic2.addEventListener("click", function () {
+
+            mod2.classList.add(`move`);
+
+        })
+        pic3.addEventListener("click", function () {
+
+            mod3.classList.add(`move`);
+
+        })
+        pic4.addEventListener("click", function () {
+
+            mod4.classList.add(`move`);
+
+        })
+        pic5.addEventListener("click", function () {
+
+            mod5.classList.add(`move`);
+
+        })
+        pic6.addEventListener("click", function () {
+
+            mod6.classList.add(`move`);
+
+        })
+
+        modb.addEventListener("click", function () {
+            mod.classList.remove(`move`);
+
+
+        })
+        modb1.addEventListener("click", function () {
+
+            mod1.classList.remove(`move`);
+
+
+
+        })
+        modb2.addEventListener("click", function () {
+
+            mod2.classList.remove(`move`);
+
+
+        })
+        modb3.addEventListener("click", function () {
+
+            mod3.classList.remove(`move`);
+
+
+
+        })
+        modb4.addEventListener("click", function () {
+
+            mod4.classList.remove(`move`);
+
+
+
+        })
+        modb5.addEventListener("click", function () {
+
+            mod5.classList.remove(`move`);
+
+
+        })
+        modb6.addEventListener("click", function () {
+
+            mod6.classList.remove(`move`);
+
+
+        })
+
+    </script>
+</body>
+
+</html>

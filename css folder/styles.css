@@ -1,0 +1,561 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#lname{
+       display: inline-block;
+       position: relative;
+       font-size:x-large;
+       left:27px;
+     
+   }
+   .li1{
+       position: relative;
+       text-align: center;
+       font-weight: bold;
+       right: 26px;
+       list-style: none;
+      
+     
+   }
+   .li1:hover{
+      
+       background-color: rgb(209, 247, 105);
+       cursor: pointer;
+    
+   }
+ 
+   #layout{
+       
+   width: 90%;
+   position: relative;
+   left: 19px;
+   }
+   #portfolio{
+       text-align: center;
+       font-weight: bold;
+       font-family:cursive ;
+       
+   }
+   #port1{
+       width: 100%;
+   }
+   
+   #laypara, #head1, #para1,  #head2, #para2, #head3,#para3,  #head5,  #para5, #head4, #para4,  #head6,  #para6  { 
+       text-align: center;
+      font-family:cursive;
+   }
+   #head1, #head2, #head3, #head5, #head4,  #head6 {
+       text-align: center;
+       font-weight: bolder;
+       color: brown;
+   }
+   #para2, #para3, #para5
+   {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   #port2{ width: 100%;
+       
+   }
+
+   #port3{ width: 100%;
+       
+   }
+
+   #port4{ width: 100%;
+       
+   }
+   
+   
+   #port5{ width: 100%;
+       
+   }
+  
+   #port6{ width: 100%;
+       
+   }
+   #conts{
+    text-align: center;
+       
+   }
+   #contact{
+       text-align: center;
+       
+   }
+   
+   .contacts{
+       text-align: center;
+      
+   }
+   .li2{
+       display: none;
+     
+   }
+  
+   #lname2{
+       display: inline-block;
+      
+     
+      
+   }
+   .ul2{
+       display: inline-block;
+       position: relative;
+       top: 19px;
+       left: 25px;
+   }
+   #li3{
+    
+       display: inline-block;
+       position: relative;
+       bottom: 17px;
+      
+       
+   }
+   .m, .m1, .m2, .m3, .m4, .m5, .m6{
+       position: fixed;
+       top: 0%;
+       background-color: rgba(252, 112, 240);
+       width: 100%;
+       height: 100%;
+       opacity: 0;
+       pointer-events: none;
+      
+       
+   }
+   #m, #m1, #m2, #m3, #m4, #m5, #m6{
+     width: 50%;
+     position: absolute;
+     top: 140px;
+     left: 24%;
+   }
+   .b, .b1, .b2, .b3, .b4, .b5, .b6{
+       background-color: rgb(92, 245, 92);
+      position: absolute;
+     left: 12%;
+     top: 50px;
+     
+   }
+ 
+   .move{
+       opacity: 99;
+       pointer-events: auto;
+   }
+   @media  screen and (min-width:321px) and (max-width:768px) {
+
+    #lname{
+        display: block;
+        text-align: center;
+        font-size:large;
+    }
+    .ul1{
+    display: inline-block;
+      
+     
+    }
+    .li1{
+      
+       float: left;
+        position: relative;
+        left: 46%;
+        margin-right: 65px;
+       
+    }
+    
+    #laypara{
+      display: inline-block;
+     position: absolute;
+     text-align:left ;
+     right: 41%;
+        width: 55%;
+    }
+    #layout{
+        position: relative;
+        left: 60%;
+        width: 40%;
+        
+       
+    }
+    
+    .portfolio{
+        display: inline-block;
+    }
+    #port1{
+        width: 48%;
+    }
+    #head1{
+        display: inline-block; 
+        text-align: left;
+        position: relative;
+        right: 37%;
+        top:40px;
+        
+    }
+    #para1{
+        display: inline-block;
+        position: relative;
+        left: 4%;
+        top: 15px;
+        text-align: center;
+        width: 38%;
+        height: 80px;
+       
+
+    }
+   
+    #port2{  float: right;
+        position: relative;
+        bottom: 225px;
+        width: 48%;
+    }
+    #head2{
+        float: right;
+        text-align: center;
+        position: relative;
+    left: 34%;
+    bottom: 137px;
+      
+    }
+    #para2{
+        float: right;
+         text-align: center;
+         width: 38%;
+         position: relative;
+    left: 43%;
+    bottom: 161px;
+       
+
+    }
+    #port3{
+        width: 48%;
+        position: relative;
+        bottom:87px ;
+    }
+    #head3{
+        display: inline-block; 
+        text-align: left;
+        position: relative;
+        right: 33%;
+       bottom:40px; 
+        
+
+    }
+    #para3{
+        display: inline-block;
+        position: relative;
+        left: 4%;
+        bottom: 59px;
+        text-align: center;
+        width: 38%;
+        height: 80px;
+      
+
+    }
+    #port4{  float: right;
+        position: relative;
+        bottom: 315px;
+        width: 48%;
+    }
+    #head4{ 
+        float: right;
+        text-align: center;
+        position: relative;
+    left: 41%;
+    bottom: 219px;
+      
+    }
+    #para4{
+        float: right;
+         text-align: center;
+         width: 38%;
+         position: relative;
+    left: 43%;
+    bottom: 237px;
+        
+
+    }
+    #port5{
+        width: 48%;
+        position: relative;
+        bottom:172px ;
+    }
+    #head5{
+        display: inline-block; 
+        text-align: left;
+        position: relative;
+        right: 36%;
+       bottom:125px; 
+        
+
+    }
+    #para5{
+        display: inline-block;
+        position: relative;
+        left: 4%;
+        bottom: 144px;
+        text-align: center;
+        width: 38%;
+        height: 80px;
+     
+
+    }
+    #port6{  float: right;
+        position: relative;
+        bottom: 400px;
+        width: 48%;
+    }
+    #head6{ 
+        float: right;
+        text-align: center;
+        position: relative;
+    left: 32%;
+    bottom: 304px;
+       
+    }
+    #para6{
+        float: right;
+         text-align: center;
+         width: 38%;
+         position: relative;
+    left: 43%;
+    bottom: 322px;
+       
+
+    }
+    #conts{
+       position: relative;
+       left: 33%;
+    }
+    #contact{
+        width: 80%;
+    }
+    #li3{
+     
+        display: none;
+      
+    }
+    .li2{
+       display: inline-block;
+       margin-left: 25px;
+       position: relative;
+       left: 65%;
+       bottom: 16px;
+     
+      
+    }
+}
+@media screen and (min-width:769px) {
+    #lname{
+        display: inline-block;
+        position: relative;
+        font-size:x-large;
+        left:27px;
+        
+    }
+    .ul1{
+        display: inline-block;
+          
+         
+        }
+    .li1{
+        float: left;
+        position: relative;
+        text-align: center;
+        font-weight: bold;
+        left: 223%;
+        top: 15px;
+        margin-left: 50px;
+        list-style: none;
+       
+    }
+    #laypara{
+        display: inline-block;
+       position: absolute;
+       text-align:left ;
+       right: 43%;
+          width: 55%;
+      }
+      #layout{
+          position: relative;
+          left: 60%;
+          width: 40%;
+          
+         
+      }
+      #portfoilio{
+          font-size: x-large;
+          font-weight: bolder;
+
+      }
+      #port1{
+        width: 32%;
+    }
+    #head1{
+        display: inline-block; 
+        text-align: left;
+        position: relative;
+        right: 24%;
+        top:40px;
+        
+    }
+    #para1{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        right: 45%;
+        top: 104px;
+        width: 31%;
+        height: 80px;
+       
+    
+    }
+    #port2{ 
+        position: relative;
+        left: 34%;
+        bottom: 323px;
+        width: 32%;
+    }
+    #head2{
+      display: inline-block;
+        text-align: center;
+        position: relative;
+    left: 12%;
+    bottom: 286px;
+      
+    }
+    #para2{
+        display: inline-block;
+         text-align: center;
+         width: 31%;
+         position: relative;
+    right: 8%;
+    bottom: 220px;
+       
+    
+    }
+    #port3{ 
+        position: relative;
+        left: 68%;
+        bottom: 622px;
+        width: 32%;
+    }
+    #head3{
+      display: inline-block;
+        text-align: center;
+        position: relative;
+    left: 48%;
+    bottom: 584px;
+      
+    }
+    #para3{
+        display: inline-block;
+         text-align: center;
+         width: 31%;
+         position: relative;
+    left: 28%;
+    bottom: 520px;
+    }
+    #port4{
+        width: 32%;
+        position: relative;
+        bottom: 267px;
+    }
+    #head4{
+        display: inline-block; 
+        text-align: left;
+        position: relative;
+        right: 26%;
+        bottom:227px;
+        
+    }
+    #para4{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        right: 52%;
+        bottom: 163px;
+        width: 31%;
+        height: 80px;
+    }
+    #port5{ 
+        position: relative;
+        left: 34%;
+        bottom: 601px;
+        width: 32%;
+    }
+    #head5{
+      display: inline-block;
+        text-align: center;
+        position: relative;
+    left: 12%;
+    bottom: 564px;
+      
+    }
+    #para5{
+        display: inline-block;
+         text-align: center;
+         width: 31%;
+         position: relative;
+    right: 9%;
+    bottom: 498px;
+    }
+    #port6{ 
+        position: relative;
+        left: 68%;
+        bottom: 897px;
+        width: 32%;
+    }
+    #head6{
+      display: inline-block;
+        text-align: center;
+        position: relative;
+    left: 48%;
+    bottom: 859px;
+      
+    }
+    #para6{
+        display: inline-block;
+         text-align: center;
+         width: 31%;
+         position: relative;
+    left: 28%;
+    bottom: 795px;
+    }
+    #conts{ 
+       position: relative;
+       bottom: 497px;
+    }
+    #contact{ 
+      position: relative;
+      bottom: 497px;
+      left: 29%;
+      width: 43%;
+    }
+    
+    .contacts{ 
+      position: relative;
+      bottom: 497px;
+    }
+    
+    #li3{
+    
+    display: none;
+    
+    }
+    #lname2{
+    position: relative;
+    bottom: 480px;
+    }
+    .li2{
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    left: 235%;
+    bottom: 497px;
+
+    }
+    hr{
+    position: relative;
+    bottom: 497px;
+    }
+}
